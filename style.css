@@ -9,6 +9,28 @@ body {
     padding: 20px 0;
 }
 
+.menu {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto; 
+  gap: 10px
+}
+
+.link {
+  border-radius: 10px;
+  height: 25px;
+}
+
+.links {
+  height: 40px;
+  width: 140px;
+  font-size: larger;
+  background-color: #a3adb8;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
 .gallery {
     display: flex;
     flex-direction: row;
@@ -38,4 +60,5 @@ body {
 
   .bio {
     font-weight: 600;
+    font-size: large;
   }
