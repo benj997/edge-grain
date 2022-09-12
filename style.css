@@ -16,6 +16,11 @@ body {
   gap: 10px
 }
 
+.menu a {
+  color: black;
+  font-weight: 600;
+}
+
 .link {
   border-radius: 10px;
   height: 25px;
